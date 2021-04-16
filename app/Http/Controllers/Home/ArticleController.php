@@ -37,7 +37,6 @@ class ArticleController extends Controller
             'head'         => $head,
             'tagName'      => '',
         ];
-
         return view('home.index.index', $assign);
     }
 
